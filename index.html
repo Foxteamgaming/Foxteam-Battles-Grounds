@@ -1,82 +1,142 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foxteam-Battles-Grounds - Page Officielle</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foxteam-Battles-Grounds - Page Officielle</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-    <!-- En-tête -->
-    <header>
-        <h1 id="title">Foxteam-Battles-Grounds</h1>
-        <p id="subtitle">Page Officielle - Foxteamgaming</p>
-    </header>
+  <!-- En-tête -->
+  <header>
+    <h1 id="title">Foxteam-Battles-Grounds</h1>
+    <p id="subtitle">Page Officielle - Foxteamgaming</p>
+  </header>
 
-    <!-- Informations principales -->
-    <section class="game-info">
-        <p><strong id="release-date">Date de sortie :</strong> (Non disponible)</p>
-        <p><strong id="developer">Développeur :</strong> Foxteamgaming</p>
-        <p><strong id="subgenre">Subgenre :</strong> Battlegrounds & Fighting</p>
-        <p><strong id="genre">Genre :</strong> Action</p>
-        <p><strong id="platform">Plateforme :</strong> Roblox</p>
-    </section>
+  <!-- Informations principales -->
+  <section class="game-info">
+    <<p><strong>Date de sortie :</strong> <span id="countdown-timer">Coming Soon</span></p>
+    <p><strong>Développeur :</strong> Foxteamgaming</p>
+    <p><strong>Subgenre :</strong> Battlegrounds & Fighting</p>
+    <p><strong>Genre :</strong> Action</p>
+    <p><strong>Plateforme :</strong> Roblox</p>
+  </section>
 
-    <!-- Objectif du jeu -->
-    <section class="game-objective">
-        <h2 id="game-objective-title">🎯 Objectif du jeu : Mode Histoire</h2>
-        <p id="game-objective-text">
-            Dans <strong>Foxteam-Battles-Grounds</strong>, le destin du monde repose entre tes mains. En tant que membre de l'élite Foxteam, ta mission est claire : sauver l'univers de l'invasion destructrice qui menace de tout anéantir.
-        </p>
-        <p id="game-objective-text2">
-            Chaque niveau est une étape cruciale de ton périple. Affronte des hordes d'ennemis, collecte des ressources et renforce ton équipe pour aller de l'avant. Mais ce n'est qu'au dernier niveau que la véritable bataille se joue : le combat final contre le Boss suprême.
-        </p>
-        <p id="game-objective-text3">
-            Une fois vaincu, tu pourras restaurer l'équilibre et ramener la paix dans le monde dévasté par le chaos.
-        </p>
-        <p id="game-objective-text4">
-            Prépare-toi à faire preuve de courage et de stratégie pour sauver le monde !
-        </p>
-    </section>
+  <!-- Objectif du jeu -->
+  <section class="game-objective">
+    <h2>🎯 Objectif du jeu : Mode Histoire</h2>
+    <p>Dans <strong>Foxteam-Battles-Grounds</strong>, le destin du monde repose entre tes mains...</p>
+    <p>Chaque niveau est une étape cruciale...</p>
+    <p>Une fois vaincu, tu pourras restaurer l'équilibre...</p>
+    <p>Prépare-toi à faire preuve de courage et de stratégie pour sauver le monde !</p>
+  </section>
+  
+    <!-- Codes disponibles -->
+  <section class="codes">
+    <h2>📜 Codes disponibles</h2>
+    <ul id="code-list">
+      <li onclick="toggleCode(this)">🎯 NicolasGauthier123 = 5000$</li>
+      <li onclick="toggleCode(this)">🦊 Foxteamgaming = 7500$</li>
+      <li onclick="toggleCode(this)">🏆 ThanksFor450Visits = 4500$</li>
+      <li onclick="toggleCode(this)">🎃 Halloween2024st = 8000$</li>
+      <li onclick="toggleCode(this)">⚔️ Battlegrounds = 2000$</li>
+      <li onclick="toggleCode(this)">🛠️ Developer0911 = 5500$</li>
+      <li onclick="toggleCode(this)">🐺 Lufor = 4000$</li>
+      <li onclick="toggleCode(this)">📅 2024-09-24 = 12000$</li>
+      <li onclick="toggleCode(this)">📈 1904 = 355 XP</li>
+      <li onclick="toggleCode(this)">🔝 LevelUp = 7 Levels</li>
+      <li onclick="toggleCode(this)">🏔️ WhiteMountain = 12000$</li>
+    </ul>
+  </section>
 
-    <!-- Codes -->
-    <section class="codes">
-        <h2 id="codes-title">📜 Codes disponibles</h2>
-        <ul id="code-list">
-            <li onclick="toggleCode(this)">🎯 NicolasGauthier123 = 5000$</li>
-            <li onclick="toggleCode(this)">🦊 Foxteamgaming = 7500$</li>
-            <li onclick="toggleCode(this)">🏆 ThanksFor450Visits = 4500$</li>
-            <li onclick="toggleCode(this)">🎃 Halloween2024st = 8000$</li>
-            <li onclick="toggleCode(this)">⚔️ Battlegrounds = 2000$</li>
-            <li onclick="toggleCode(this)">🛠️ Developer0911 = 5500$</li>
-            <li onclick="toggleCode(this)">🐺 Lufor = 4000$</li>
-            <li onclick="toggleCode(this)">📅 2024-09-24 = 12000$</li>
-            <li onclick="toggleCode(this)">📈 1904 = 355 XP</li>
-            <li onclick="toggleCode(this)">🔝 LevelUp = 7 Levels</li>
-            <li onclick="toggleCode(this)">🏔️ WhiteMountain = 12000$</li>
-        </ul>
-    </section>
 
-    <!-- Rejoindre le groupe -->
-    <section class="join-group">
-        <h2 id="join-group-title">👥 Rejoindre notre groupe!</h2>
-        <p id="join-group-text">
-            Clique ci-dessous pour rejoindre notre communauté sur Roblox et être à jour sur les dernières actualités de <strong>Foxteam-Battles-Grounds</strong>.
-        </p>
-        <a href="https://www.roblox.com/communities/9598519/foxteamgaming#!/about" class="button" target="_blank">Rejoindre le groupe</a>
-    </section>
+  <!-- Progression du jeu -->
+  <section class="game-progression">
+    <h2>📈 Progression du jeu (Monde 1 à 15)</h2>
 
-    <!-- Jouer au jeu -->
-    <section class="play-game">
-        <h2 id="play-game-title">🎮 Jouer à Foxteam-Battles-Grounds</h2>
-        <p id="play-game-text">
-            Clique ci-dessous pour commencer à jouer à <strong>Foxteam-Battles-Grounds</strong> et plonge dans l'aventure épique!
-        </p>
-        <a href="https://www.roblox.com/games/137928216522891/Foxteam-Battles-Grounds" class="button" target="_blank">Jouer maintenant</a>
-    </section>
+    <h3>💰 Prix de chaque Monde</h3>
+    <table>
+      <thead><tr><th>Monde</th><th>Nom</th><th>Prix</th><th>Commentaire</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Monde Débutant</td><td>Gratuit</td><td>Monde de départ</td></tr>
+        <tr><td>2</td><td>Monde 2</td><td>25,000</td><td>Premier palier, facile</td></tr>
+        <tr><td>3</td><td>Monde 3</td><td>150,000</td><td>Augmentation douce</td></tr>
+        <tr><td>4</td><td>Monde 4</td><td>600,000</td><td>Commencent à farmer</td></tr>
+        <tr><td>5</td><td>Monde 5</td><td>2,000,000</td><td>Boss avec récompenses</td></tr>
+        <tr><td>6</td><td>Monde 6</td><td>6,000,000</td><td>Stratégie nécessaire</td></tr>
+        <tr><td>7</td><td>Monde 7</td><td>20,000,000</td><td>Début du mid-game</td></tr>
+        <tr><td>8</td><td>Monde 8</td><td>75,000,000</td><td>Valeurs montent vite</td></tr>
+        <tr><td>9</td><td>Monde 9</td><td>250,000,000</td><td>Gros farming</td></tr>
+        <tr><td>10</td><td>Monde 10</td><td>800,000,000</td><td>Fin du mid-game</td></tr>
+        <tr><td>11</td><td>Monde 11</td><td>1,600,000,000</td><td>Début du end-game</td></tr>
+        <tr><td>12</td><td>Monde 12</td><td>3,000,000,000</td><td>Réservé aux bons</td></tr>
+        <tr><td>13</td><td>Monde 13</td><td>6,000,000,000</td><td>Boss puissants</td></tr>
+        <tr><td>14</td><td>Monde 14</td><td>10,000,000,000</td><td>Avant Boss final</td></tr>
+        <tr><td>15</td><td>Monde Final</td><td>15,000,000,000</td><td>Grind extrême ☠️</td></tr>
+      </tbody>
+    </table>
 
-    <!-- Changeur de langue supprimé -->
-    <script src="script.js"></script>
+    <h3>⚔️ Stats des NPC et Boss</h3>
+    <table>
+      <thead><tr><th>Monde</th><th>PV NPC</th><th>PV Boss</th><th>Bobux/NPC</th><th>XP/NPC</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>1,200</td><td>5,000</td><td>25</td><td>50</td><td>Lent au début</td></tr>
+        <tr><td>2</td><td>3,000</td><td>15,000</td><td>80</td><td>200</td><td>Plus rapide</td></tr>
+        <tr><td>3</td><td>8,000</td><td>40,000</td><td>400</td><td>1,000</td><td>Premier vrai challenge</td></tr>
+        <tr><td>4</td><td>20,000</td><td>100,000</td><td>1,200</td><td>5,000</td><td>Grind moyen</td></tr>
+        <tr><td>5</td><td>60,000</td><td>250,000</td><td>3,000</td><td>15,000</td><td>Boss forts</td></tr>
+        <tr><td>6</td><td>150,000</td><td>700,000</td><td>7,500</td><td>40,000</td><td>Grind intense</td></tr>
+        <tr><td>7</td><td>400,000</td><td>1,500,000</td><td>20,000</td><td>100,000</td><td>Mid-game</td></tr>
+        <tr><td>8</td><td>1,000,000</td><td>4,000,000</td><td>50,000</td><td>300,000</td><td>Grind rapide</td></tr>
+        <tr><td>9</td><td>2,500,000</td><td>10,000,000</td><td>150,000</td><td>750,000</td><td>Équipés</td></tr>
+        <tr><td>10</td><td>6,000,000</td><td>25,000,000</td><td>400,000</td><td>2,000,000</td><td>Fin mid-game</td></tr>
+        <tr><td>11</td><td>15,000,000</td><td>60,000,000</td><td>1,000,000</td><td>5,000,000</td><td>Début end-game</td></tr>
+        <tr><td>12</td><td>40,000,000</td><td>100,000,000</td><td>2,500,000</td><td>10,000,000</td><td>Légendaire</td></tr>
+        <tr><td>13</td><td>100,000,000</td><td>250,000,000</td><td>7,500,000</td><td>25,000,000</td><td>Farming intensif</td></tr>
+        <tr><td>14</td><td>300,000,000</td><td>600,000,000</td><td>15,000,000</td><td>50,000,000</td><td>Gros dégâts</td></tr>
+        <tr><td>15</td><td>1B</td><td>2B</td><td>50,000,000</td><td>100,000,000</td><td>Finale difficile</td></tr>
+      </tbody>
+    </table>
+
+    <h3>📊 Tableau de progression recommandé</h3>
+    <table>
+      <thead><tr><th>Monde</th><th>Niveaux</th><th>XP total</th><th>Durée</th><th>XP/NPC</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>1–50</td><td>8,000</td><td>~0.5h</td><td>50</td></tr>
+        <tr><td>2</td><td>51–150</td><td>50,000</td><td>~2h</td><td>150</td></tr>
+        <tr><td>3</td><td>151–300</td><td>150,000</td><td>~4h</td><td>500</td></tr>
+        <tr><td>4</td><td>301–500</td><td>400,000</td><td>~8h</td><td>1,000</td></tr>
+        <tr><td>5</td><td>501–750</td><td>1,000,000</td><td>~12h</td><td>2,000</td></tr>
+        <tr><td>6</td><td>751–1,000</td><td>2,000,000</td><td>~16h</td><td>3,000</td></tr>
+        <tr><td>7</td><td>1,001–1,400</td><td>5,000,000</td><td>~20h</td><td>5,000</td></tr>
+        <tr><td>8</td><td>1,401–2,000</td><td>10,000,000</td><td>~24h</td><td>10,000</td></tr>
+        <tr><td>9</td><td>2,001–3,000</td><td>25,000,000</td><td>~30h</td><td>20,000</td></tr>
+        <tr><td>10</td><td>3,001–4,500</td><td>60,000,000</td><td>~36h</td><td>50,000</td></tr>
+        <tr><td>11</td><td>4,501–6,000</td><td>100,000,000</td><td>~40h</td><td>100,000</td></tr>
+        <tr><td>12</td><td>6,001–7,500</td><td>150,000,000</td><td>~44h</td><td>150,000</td></tr>
+        <tr><td>13</td><td>7,501–8,800</td><td>200,000,000</td><td>~48h</td><td>300,000</td></tr>
+        <tr><td>14</td><td>8,801–9,800</td><td>250,000,000</td><td>~52h</td><td>500,000</td></tr>
+        <tr><td>15</td><td>9,801–10,000</td><td>150,000,000</td><td>~30h</td><td>1,000,000</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+
+  <!-- Rejoindre le groupe -->
+  <section class="join-group">
+    <h2>👥 Rejoindre notre groupe!</h2>
+    <p>Clique ci-dessous pour rejoindre notre communauté...</p>
+    <a href="https://www.roblox.com/communities/9598519/foxteamgaming#!/about" class="button" target="_blank">Rejoindre le groupe</a>
+  </section>
+
+  <!-- Jouer au jeu -->
+  <section class="play-game">
+    <h2>🎮 Jouer à Foxteam-Battles-Grounds</h2>
+    <p>Clique ci-dessous pour commencer à jouer...</p>
+    <a href="https://www.roblox.com/games/137928216522891/Foxteam-Battles-Grounds" class="button" target="_blank">Jouer maintenant</a>
+  </section>
+ 
+  <script src="script.js"></script>
 </body>
 </html>
